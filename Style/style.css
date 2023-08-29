@@ -34,28 +34,28 @@ header{
 }
 
 .dark-mode{
-     margin-top: 20px;
+     position: absolute;
+     top: 20px;
      border-radius: 2rem;
      background-color: #777;
-     width: 48px;
-     height: 28px;
+     width: 46px;
+     height: 24px;
+     padding-left: 2px;
      cursor: pointer;
-     padding-top: 5px;
-     padding-left: 18px;
      display: flex;
      transition: background-color .3s linear , padding-left .3s linear;
  }
 
  .dark-mode span{
      position: relative;
-     width: 1.5rem;
-     height: 1.5rem;
+     width: 22px;
+     height: 22px;
      display: inline-block;
      border-radius: 50%;
      background-color:white;   
  }
 
- .dark-mode.dark-btn-on{
+ .dark-btn-on{
  padding-left: 22px;
  background-color: black;
 }
